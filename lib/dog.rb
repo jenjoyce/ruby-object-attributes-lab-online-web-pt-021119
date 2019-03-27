@@ -12,15 +12,15 @@ class Dog
     puts "#{@this_dogs_name}"
   end
   
-def initialize(name)
-    @name = name
+  def initialize(breed)
+    @breed = breed
   end
 
-def breed=(dog_breed)
+  def breed=(dog_breed)
     @this_dogs_breed = dog_breed
   end
   
-def breed
-  puts "#{@this_dogs_breed}"
-end
+  def breed
+    puts "#{@this_dogs_breed}"
+  end
 end
