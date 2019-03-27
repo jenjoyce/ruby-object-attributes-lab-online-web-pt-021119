@@ -5,7 +5,7 @@ class Dog
   end
   
   def name
-    puts "#{@name}"
+    puts "#{@this_dogs_name}"
   end
 
 def breed=(dog_breed)
@@ -13,6 +13,6 @@ def breed=(dog_breed)
   end
   
 def breed
-  puts "#{@breed}"
+  puts "#{@this_dogs_breed}"
 end
 end
