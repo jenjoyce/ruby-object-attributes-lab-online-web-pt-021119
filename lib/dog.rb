@@ -1,15 +1,15 @@
 class Dog 
   
-  def name=(Fido)
-    @name = Fido
+  def name=(this_dogs_name)
+    @name = this_dogs_name
   end
   
   def name
     puts "#{@name}"
   end
 
-def breed=(Beagle)
-    @breed = Beagle
+def breed=(this_dogs_breed)
+    @breed = this_dogs_breed
   end
   
 def breed
