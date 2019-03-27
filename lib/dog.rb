@@ -8,11 +8,11 @@ class Dog
     puts "#{@name}"
   end
 
-def breed=(this_dogs_breed)
-    @breed = this_dogs_breed
+def breed=(Beagle)
+    @breed = Beagle
   end
   
-  def breed
-    puts "#{@breed}"
-  end
+def breed
+  puts "#{@breed}"
+end
 end
